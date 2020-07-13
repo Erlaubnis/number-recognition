@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Preditction</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>robin.software - Number Recognition</h1>
+
+    <p>This Project lets you draw a Single Number, and the AI predicts what Number it is. <br>
+        It was built with a Google Dataset, and the Tensorflow Package. <br> You can start Drawing, in the Green Area down below.</p>
+    <div id="canvas_box" class="canvas"></div>
+    
+    <h2 class="result" id="result"></h2>
+
+    <div class="buttons">
+        <button id="clear-btn" class="btn">Clear</button>
+        <button id="predict-btn" class="btn">Predict</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.css">
+    <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  background: #000000;
+  margin: 0;
+  padding: 1rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h1 {
+  color: #ff6868;
+  font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  left: 2rem;
+}
+
+.canvas canvas {
+  position: relative;
+  margin-top: 2rem;
+  left: 1rem;
+  background: white;
+  border-radius: 27px;
+  border: 5px solid #68ff6d;
+  cursor: crosshair;
+}
+
+p {
+  color: #ff6868;
+  font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.result {
+  color: #68ff6d;
+  position: relative;
+  margin-top: 2rem;
+  font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  visibility: hidden;
+  left: 1rem;
+}
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 20px;
+  border: none;
+  background: #ff6868;
+  font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-right: 2rem;
+  -webkit-transition: background ease .5s, -webkit-transform ease .25s;
+  transition: background ease .5s, -webkit-transform ease .25s;
+  transition: background ease .5s, transform ease .25s;
+  transition: background ease .5s, transform ease .25s, -webkit-transform ease .25s;
+}
+
+.btn:hover, .btn:focus {
+  background: #ff8282;
+  outline: none;
+  -webkit-transition: background ease .5s, -webkit-transform ease .25s;
+  transition: background ease .5s, -webkit-transform ease .25s;
+  transition: background ease .5s, transform ease .25s;
+  transition: background ease .5s, transform ease .25s, -webkit-transform ease .25s;
+}
+
+.btn:active {
+  -webkit-transform: translate(0, -2.5px);
+          transform: translate(0, -2.5px);
+  -webkit-transition: background ease .5s, -webkit-transform ease .25s;
+  transition: background ease .5s, -webkit-transform ease .25s;
+  transition: background ease .5s, transform ease .25s;
+  transition: background ease .5s, transform ease .25s, -webkit-transform ease .25s;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

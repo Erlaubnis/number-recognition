@@ -1,0 +1,22 @@
+{
+  "name": "numberprediction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "AI",
+    "Number",
+    "Recognition",
+    "Tensorflow"
+  ],
+  "author": "Robin Klein",
+  "license": "MIT",
+  "repository": {"url": "https://github.com/Erlaubnis/number-recognition"},
+  "homepage": "https://numberrecognition.experimental.robin.software/",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

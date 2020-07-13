@@ -1,0 +1,65 @@
+$prime: #ff6868
+$secondary: #68ff6d
+$gray: #000000
+$font: 'IBM Plex Mono', Helvetica, Arial, sans-serif;
+
+body
+    background: $gray
+    margin: 0
+    padding: 1rem
+    user-select: none
+
+h1
+    color: $prime
+    font-family: $font
+    font-size: 2rem
+    left: 2rem
+
+.canvas canvas
+    position: relative
+    margin-top: 2rem
+    left: 1rem
+    background: white
+    border-radius: 27px
+    border: 5px solid $secondary
+    cursor: crosshair
+
+p
+    color: $prime
+    font-family: $font
+    font-size: 2rem
+
+.result
+    color: $secondary
+    position: relative
+    margin-top: 2rem
+    font-family: $font
+    font-weight: bold
+    visibility: hidden
+    left: 1rem
+
+.btn
+    width: 10rem
+    height: 3rem
+    border-radius: 20px
+    border: none
+    background: $prime
+    font-family: $font
+    font-size: 1.3rem
+    color: #ffffff
+    margin-right: 2rem
+    transition: background ease .5s, transform ease .25s
+    &:hover,&:focus
+        background: lighten($prime, 5)
+        outline: none
+        transition: background ease .5s, transform ease .25s
+    &:active
+        transform: translate(0, -2.5px)
+        transition: background ease .5s, transform ease .25s
+
+        
+    
+.buttons
+    position: absolute
+    bottom: 2rem
+    left: 2rem
