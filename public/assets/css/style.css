@@ -76,8 +76,8 @@ p {
 }
 
 .buttons {
-  position: absolute;
-  bottom: 2rem;
+  position: relative;
+  margin-top: 5rem;
   left: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
