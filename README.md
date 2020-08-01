@@ -5,7 +5,7 @@ This Repository holds the Number Recognition Tool built with Tensorflow.
 # Getting started
 
 ## Step 1:
-`git clone https://github.com/dieserRobin/url-snumber-recognitionhorter`
+`git clone https://github.com/dieserRobin/number-recognition`
 
 ## Step 2:
 
